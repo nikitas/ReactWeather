@@ -4,9 +4,10 @@
   "description": "Simple react app",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "author": "Andrew Mead",
+  "author": "Nikita Tkachenko",
   "license": "MIT",
   "dependencies": {
     "axios": "^0.15.3",
