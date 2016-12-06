@@ -3,8 +3,10 @@ var React = require('react');
 var About = (props) => {
     return (
         <div>
-            <h3>Welcome to react weather app</h3>
-            <p>App that shows temperature for every city!</p>
+            <h2>Reactive weather </h2>
+            <p>App that shows temperature in every city!</p>
+            <p>Weather information is gathered by Santa (Open weather map):</p>
+            <a href="http://openweathermap.org">Open weather map</a>
         </div>
 
     )

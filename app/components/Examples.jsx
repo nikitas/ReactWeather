@@ -3,16 +3,16 @@ var {Link} = require('react-router');
 var Examples = (props) => {
     return (
         <div>
-            <h1 className="text-center">Examples</h1>
+            <h2>Examples</h2>
             <p>Here are few example locations to try out:</p>
-            <ol>
+            <ul className="no-bullet">
                 <li>
                     <Link to="/?location=Izmail">Izmail</Link>
                 </li>
                 <li>
                     <Link to="/?location=Barcelona">Barcelona</Link>
                 </li>
-            </ol>
+            </ul>
         </div>
     )
 };
